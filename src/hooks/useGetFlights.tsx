@@ -139,7 +139,7 @@ const useGetFlights = (): UseGetFlight => {
         let list: any = departure ? filterData(FlightDetails, "departure", departure) : [];
         list = filterData(list, "destination", destination);
         list = filterData(list, "departureDate", departDate);
-        list = filterData(list, "returnDate", returnDate);
+        list = returnDate ? filterData(list, "returnDate", returnDate) : list;
         list = filterFlightResults(list);
         list = sortCriteria ? sortFlightHandler(list) : list;
         setFlightList(list);

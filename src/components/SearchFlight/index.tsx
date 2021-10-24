@@ -38,7 +38,7 @@ const SearchFlight = (): JSX.Element => {
     };
 
     const checkIsFormValid = () => {
-        if (!departure || !destination || !departDate || !returnDate) {
+        if (!departure || !destination || !departDate) {
             setIsFormValid(false);
             return false;
         }
@@ -88,7 +88,7 @@ const SearchFlight = (): JSX.Element => {
                     value={returnDate}
                     placeholderText={new Date().toLocaleDateString("en-US")}
                     onChange={(value) => inputChangeHandler("returnDate", value)}
-                    required={true}
+                    required={false}
                     min={departDate}
                 />
             </div>
