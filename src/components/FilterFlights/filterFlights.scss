@@ -1,0 +1,65 @@
+$borderColor: #eee;
+
+.box-shadow {
+    box-shadow: 0 0 10px $borderColor;
+}
+
+.filter-flights {
+    display: flex;
+    flex-direction: column;
+    .flight-filter-options {
+        display: flex;
+        flex-direction: column;
+        .price-filters {
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: column;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            border-top: 1px solid $borderColor;
+            border-bottom: 1px solid $borderColor;
+            @extend .box-shadow;
+            .price-filter-heading {
+                display: flex;
+                justify-content: flex-start;
+                margin-top: 10px;
+                margin-bottom: 20px;
+                padding: 0px 0px 10px 20px;
+                border-bottom: 1px solid $borderColor;
+            }
+            .price-inputs {
+                display: flex;
+                justify-content: space-evenly;
+                padding: 0px 10px 0px 10px;
+            }
+            .price-range-slider {
+                display: flex;
+                justify-content: center;
+                padding: 0px 15px 0px 15px;
+                margin: 20px 0px 20px 0px;
+                .custom-slider {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .booking-class {
+        @extend .box-shadow;
+        .booking-filter-heading {
+            display: flex;
+            justify-content: flex-start;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            padding: 0px 0px 10px 20px;
+            border-bottom: 1px solid $borderColor;
+        }
+    }
+    .action-buttons {
+        display: flex;
+        border-bottom: 1px solid $borderColor;
+        @extend .box-shadow;
+        margin-top: 20px;
+        padding: 20px 0px 20px 0px;
+        justify-content: space-evenly;
+    }
+}

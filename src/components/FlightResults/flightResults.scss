@@ -1,0 +1,9 @@
+@import '../../styles/colors';
+
+.no-flight-result-found {
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    color: $primary;
+    margin: 30px auto;
+}

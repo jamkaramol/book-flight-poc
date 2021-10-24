@@ -1,0 +1,19 @@
+.flight-search-form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.date-fields {
+    display: flex;
+    width: 100%;
+    margin-top:10px;
+    flex-wrap: wrap;
+}
+
+.date-fields-column {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-top:10px;
+}

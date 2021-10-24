@@ -1,0 +1,28 @@
+@import '../../styles/colors';
+
+.flight-class-option {
+    position: relative;
+    .flight-class-option-details {
+        display: inline-block;
+        background-color: $primary;
+        color: $white;
+        border-radius: 3px;
+        padding: 5px;
+        margin-left: 5px;
+        min-width: 120px;
+        font-size: 14px;
+    }
+    .available-seats {
+        background-color: $tooltip;
+        color: #333;
+        border-radius: 0px 0px 0px 5px;
+        padding-left: 5px;
+        font-size: 11px;
+        position: absolute;
+        padding-right: 5px;
+        z-index: 1;
+        margin-left: 67px;
+        margin-top: 0px;
+        float: right;
+    }
+}

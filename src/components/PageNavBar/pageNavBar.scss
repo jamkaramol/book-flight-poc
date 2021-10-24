@@ -1,0 +1,37 @@
+@import "../../styles/colors";
+
+$navbarBackground: $primary;
+$navbarText: $white;
+$logoBackGroundColor: $logo;
+
+.nav-bar-action {
+    justify-content: center;
+    width: 50px;
+    text-align: center;
+}
+
+.navbar {
+    width: 100%;
+    min-height: 7vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: $navbarBackground;
+    transition: all 0.7s ease-in;
+    color: $navbarText;
+    flex: 1 1 auto;
+    .back-button {
+        @extend .nav-bar-action;
+        width: 10%;
+    }
+    .flight-details {
+        text-align: center;
+        font-size: 12px;
+        width: 80%;
+    }
+    .action-button {
+        @extend .nav-bar-action;
+        width: 10%;
+    }
+}

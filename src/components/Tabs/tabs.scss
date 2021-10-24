@@ -1,0 +1,20 @@
+@import '../../styles/colors.scss';
+
+$tabListBorder: $primary;
+
+.tab-list {
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-top: 0px;
+    a {
+        text-decoration: none;
+    }
+}
+
+.tab-content {
+    margin: 5px;
+}

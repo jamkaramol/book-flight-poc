@@ -1,0 +1,30 @@
+@import '../../styles/colors';
+
+@mixin getBorder($unit, $color) {
+    border-bottom: $unit solid $color;
+}
+
+.tab-list-common {
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+    margin: 1px;
+    border-radius: 2px;
+    a {
+        text-decoration: none;
+    }
+}
+
+.tab-list-item {
+    display: inline-block;
+    padding: 0.5rem 0.75rem;
+    @extend .tab-list-common;
+    @include getBorder(4px, rgb(219, 215, 215));
+}
+
+.tab-list-active {
+    background-color: white;
+    @include getBorder(4px, green);
+    @extend .tab-list-common;
+}

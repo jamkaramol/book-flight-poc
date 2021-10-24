@@ -1,0 +1,18 @@
+.sort-flights {
+    .sort-flight-form {
+        .sort-flight-radio-box {
+            padding: 5px;
+            .sort-flight-options {
+                display: flex;
+                justify-content: flex-start;
+                margin: 5px 0px 20px 7px;
+                label {
+                    margin: 0px !important;
+                }
+            }
+        }
+    }
+    .sort-flight-submit {
+        padding: 0px 10px 0px 10px;
+    }
+}
