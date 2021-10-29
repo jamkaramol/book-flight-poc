@@ -1,4 +1,19 @@
 # Getting Started - POC flight booking web app
+
+## How it looks ?
+
+
+| Home Page                       |    Search Page                    |
+|---------------------------------|-----------------------------------|
+| ![Home Page](demo/homePage.PNG) | ![Search Page](demo/homePage.PNG) |
+
+
+
+|           Sort Screen           |        Filter Screen                    |
+|---------------------------------|-----------------------------------------|
+| ![Home Page](demo/sortScreen.PNG) | ![Search Page](demo/filterScreen.PNG) |
+
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -15,3 +30,11 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `Tech Used`
+1. ReactJS.
+2. Redux.
+3. React Router.
+4. React testing lib.
+5. TypeScript.
+6. SCSS.

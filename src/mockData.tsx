@@ -100,4 +100,4 @@ export const FlightDetails = [
     getFlightDetails(CITIES[2], CITIES[0], getDateFromToday(4), getDateFromToday(9), "AirIndia", [CITIES[2], CITIES[4], CITIES[1], CITIES[0]], 15, "11:20", "13:20", "11:05")
 ];
 // console.log("Refer this object for testing");
-// console.log(FlightDetails);
+console.table(FlightDetails);
