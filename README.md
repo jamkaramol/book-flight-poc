@@ -5,7 +5,7 @@
 
 | Home Page                       |    Search Page                    |
 |---------------------------------|-----------------------------------|
-| ![Home Page](demo/homePage.PNG) | ![Search Page](demo/homePage.PNG) |
+| ![Home Page](demo/homePage.PNG) | ![Search Page](demo/searchResult.PNG) |
 
 
 
